@@ -1,0 +1,72 @@
+@charset "UTF-8";
+@media screen and (max-width: 900px) {
+  .site-title {
+    font-size: 3rem;
+    margin: 50px 0;
+  }
+  .section-title {
+    font-size: 2rem;
+  }
+  /*-------------------------------------------
+  Information
+  -------------------------------------------*/
+  #information {
+    margin-bottom: 80px;
+  }
+  #information .info-date-en,
+  #information .info-time-en,
+  #information .info-date-ja {
+    font-size: 1rem;
+  }
+  #information .info-place {
+    font-size: 2rem;
+  }
+  /*-------------------------------------------
+  Gallery
+  -------------------------------------------*/
+  #gallery {
+    margin-bottom: 280px;
+  }
+  #gallery .list li {
+    margin-bottom: 30px;
+  }
+  #gallery .list li img {
+    width: 100%;
+  }
+  /*-------------------------------------------
+  Access
+  -------------------------------------------*/
+  #access {
+    margin-bottom: 280px;
+  }
+  /*-------------------------------------------
+  Contact
+  -------------------------------------------*/
+  #contact .btn {
+    width: 100%;
+  }
+  /*
+  スマホの時は矢印を消す
+  */
+  #contact .btn::before,
+  #contact .btn::after {
+    content: none;
+  }
+  /*-------------------------------------------
+  Footer
+  -------------------------------------------*/
+  #footer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    padding: 60px 30px;
+  }
+  #footer .sns {
+    margin-bottom: 30px;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */
