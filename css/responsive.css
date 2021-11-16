@@ -26,6 +26,7 @@
   -------------------------------------------*/
   #gallery {
     margin-bottom: 280px;
+    padding: 0;
   }
   #gallery .list li {
     margin-bottom: 30px;
@@ -67,6 +68,9 @@
   }
   #footer .sns {
     margin-bottom: 30px;
+  }
+  .br {
+    display: block;
   }
 }
 /*# sourceMappingURL=responsive.css.map */
